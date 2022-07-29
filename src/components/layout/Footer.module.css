@@ -1,0 +1,22 @@
+.footer_container {
+    height: 230px;
+    background-color: #222;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_container {
+    position: relative;
+    top: -4.4em;
+}
+
+.copy_right {
+    margin-top: 2em;
+    font-weight: bold;
+}
+.copy_right span {
+    color: #197FC3;
+}
