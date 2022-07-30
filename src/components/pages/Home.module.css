@@ -37,7 +37,7 @@
     margin-top: 7em;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1100px) {
     .home_container {
         background: url('../../img/home-bg.jpg') no-repeat center center;
         -webkit-background-size: cover;
