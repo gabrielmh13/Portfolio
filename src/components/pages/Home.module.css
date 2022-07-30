@@ -39,7 +39,12 @@
 
 @media only screen and (max-width: 1300px) {
     .home_container {
-      height: auto;
+        background: url('../../img/home-bg.jpg') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: auto;
     }
 
     .content {
