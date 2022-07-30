@@ -5,7 +5,7 @@ import {IoIosArrowDown, IoIosArrowUp} from 'react-icons/io'
 export default function BtnAnchor({direction, to}){
     function handleClick(e){
         e.preventDefault()
-        window.location.href = `/#${to}`
+        window.location.href = window.location.href.split("#")[0] + `#${to}`
     }
 
     return (
