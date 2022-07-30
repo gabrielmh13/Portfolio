@@ -10,19 +10,6 @@
     align-items: center;
 }
 
-@media only screen and (max-width: 1300px) {
-    .about_container {
-        display: inline-block;
-        text-align: center;
-    }
-
-    .text_container {
-        display: inline-block;
-        text-align: left;
-    }
-
-  }
-
 .foto_container img{
     height: 10em;
 }
@@ -58,3 +45,16 @@
     vertical-align: middle;
 }
 
+@media only screen and (max-width: 1300px) {
+    .about_container {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .text_container {
+        display: inline-block;
+        text-align: left;
+        max-width: 100%;
+    }
+
+  }

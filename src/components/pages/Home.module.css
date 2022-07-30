@@ -13,12 +13,6 @@
     align-items: center;
 }
 
-@media only screen and (max-width: 1300px) {
-    .home_container {
-      height: auto;
-    }
-  }
-
 .content {
     margin-top: 4em;
     text-align: center;
@@ -42,3 +36,13 @@
 .btn_container {
     margin-top: 7em;
 }
+
+@media only screen and (max-width: 1300px) {
+    .home_container {
+      height: auto;
+    }
+
+    .content {
+        width: 100%;
+    }
+  }
