@@ -3,10 +3,12 @@ import './App.css';
 import { useEffect, useState } from 'react';
 
 import Navbar from './components/layout/Navbar'
+import MobileNavbar from './components/layout/MobileNavbar';
 import Footer from './components/layout/Footer';
+
 import Home from './components/pages/Home';
 import About from './components/pages/About';
-import MobileNavbar from './components/layout/MobileNavbar';
+import Resume from './components/pages/Resume';
 
 function App() {
 
@@ -49,6 +51,7 @@ function App() {
       {mobile === true ? <MobileNavbar bgNavbar={bgNavbar}/> : <Navbar bgNavbar={bgNavbar}/>}
       <Home />
       <About />
+      <Resume />
       <Footer />
     </div>
   );

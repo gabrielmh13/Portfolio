@@ -11,9 +11,9 @@ export default function About(){
                 <img src='https://cdn-icons-png.flaticon.com/512/1361/1361728.png' alt="Foto Gabriel"/>
             </div>
             <div className={styles.text_container}>
-                <h1>About Me</h1>
+                <h2>About Me</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <h1>Contact Details</h1>
+                <h2>Contact Details</h2>
                 
                 <ul>
                     <li>
