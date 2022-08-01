@@ -6,8 +6,8 @@ export default function Resume(){
     return (
         <section id="resume" className={styles.resume_container}>
             <div className={styles.text_container}>
-                <div className={styles.label_container}>
-                    <label>EDUCATION</label>
+                <div className={styles.title_container}>
+                    <p>EDUCATION</p>
                 </div>
                 <div className={styles.description_container}>
                     <h2>Universidade do Vale do Itajaí</h2>
@@ -15,8 +15,8 @@ export default function Resume(){
                 </div>
             </div>
             <div className={styles.text_container}>
-                <div className={styles.label_container}>
-                    <label>CAREER</label>
+                <div className={styles.title_container}>
+                    <p>CAREER</p>
                 </div>
                 <div className={styles.description_container}>
                     <h2>Carson BMI - <span>Since March 2021</span></h2>
@@ -24,15 +24,15 @@ export default function Resume(){
                 </div>
             </div>
             <div className={styles.text_container}>
-                <div className={styles.label_container}>
-                    <label>SKILLS</label>
+                <div className={styles.title_container}>
+                    <p>SKILLS</p>
                 </div>
                 <div className={styles.description_container}>
-                    <ProgressBar name="HTML, CSS, Javascript" perc="80" />
-                    <ProgressBar name="PHP, Node.js, React JS" perc="50" />
-                    <ProgressBar name="PostgreSQL, MySQL, SQL Server, OracleDB" perc="40" />
-                    <ProgressBar name="Apache, Nginx" perc="40" />
-                    <ProgressBar name="Windows, Linux" perc="80" />
+                    <ProgressBar skills="HTML CSS Javascript" perc="80" />
+                    <ProgressBar skills="PHP Node.js React JS" perc="50" />
+                    <ProgressBar skills="PostgreSQL MySQL SQL Server MongoDB" perc="40" />
+                    <ProgressBar skills="Apache Nginx" perc="40" />
+                    <ProgressBar skills="Windows Linux" perc="80" />
                 </div>
             </div>
         </section>
