@@ -28,11 +28,11 @@ export default function Resume(){
                     <p>SKILLS</p>
                 </div>
                 <div className={styles.description_container}>
-                    <ProgressBar skills="HTML CSS Javascript" perc="80" />
-                    <ProgressBar skills="PHP Node.js React JS" perc="50" />
-                    <ProgressBar skills="PostgreSQL MySQL SQL Server MongoDB" perc="40" />
-                    <ProgressBar skills="Apache Nginx" perc="40" />
-                    <ProgressBar skills="Windows Linux" perc="80" />
+                    <ProgressBar skills="HTML,CSS,Javascript" perc="80" />
+                    <ProgressBar skills="PHP,Node.js,React JS" perc="50" />
+                    <ProgressBar skills="PostgreSQL,MySQL,SQL Server,MongoDB" perc="40" />
+                    <ProgressBar skills="Apache,Nginx" perc="40" />
+                    <ProgressBar skills="Windows,Linux" perc="80" />
                 </div>
             </div>
         </section>
